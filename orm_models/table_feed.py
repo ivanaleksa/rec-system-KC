@@ -1,8 +1,8 @@
 from database import Base
 from sqlalchemy import Column, Integer, String, TIMESTAMP, ForeignKey
 from sqlalchemy.orm import relationship
-from table_post import Post
-from table_user import User
+from .table_post import Post
+from .table_user import User
 
 
 class Feed(Base):
