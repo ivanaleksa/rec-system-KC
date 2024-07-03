@@ -15,3 +15,4 @@ loguru==0.6.0
 implicit==0.5.2
 lightfm==1.16
 seaborn
+python-dotenv==1.0.1
